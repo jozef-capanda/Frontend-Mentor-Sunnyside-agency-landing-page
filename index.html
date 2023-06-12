@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="styles/reset-andy-bell.css" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/global.min.css" />
+    <link rel="stylesheet" href="./styles/main.min.css" />
+    <link rel="stylesheet" href="./styles/queries.min.css" />
+    <link rel="stylesheet" href="./styles/utility.min.css" />
+
+    <script src="./script/dropdown.min.js" defer></script>
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation" role="navigation">
+        <img class="logo" src="./images/logo.svg" alt="" />
+        <ul role="list" class="navigation__list--header">
+          <li>
+            <a
+              class="navigation__link navigation__link--header"
+              aria-label="About"
+              href="#"
+              title="About"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="navigation__link navigation__link--header"
+              aria-label="Services"
+              href="#"
+              title="Services"
+            >
+              Services
+            </a>
+          </li>
+          <li>
+            <a
+              class="navigation__link navigation__link--header"
+              aria-label="Project"
+              href="#"
+              title="Project"
+            >
+              Project
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label="Navigate to the first section"
+              class="navigation__link navigation__link--header navigation__link--contact"
+              aria-label="Contact"
+              href="#"
+              title="Contact"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+        <button class="hamburger" aria-label="Open the menu">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </button>
+      </nav>
+
+      <h1 class="header__title">We are creatives</h1>
+      <a
+        class="header__arrow"
+        href="#transform"
+        aria-label="Navigates to the first section"
+      >
+        <img src="./images/icon-arrow-down.svg" alt="" />
+      </a>
+    </header>
+
+    <main>
+      <!-- TRANSFORM  SECTION -->
+      <section id="transform" class="grid grid-2-col grid-sm-1-col">
+        <div class="text-container text-container--left">
+          <h2 class="text-container__title">Transform your brand</h2>
+          <p class="text-container__content">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a
+            class="text-container__link text-container__link--yellow"
+            href="#"
+            target="_blank"
+          >
+            Learn more
+          </a>
+        </div>
+        <picture class="place-first-sm" aria-hidden="true">
+          <source
+            media="(max-width: 50em)"
+            srcset="images/mobile/image-transform.webp"
+          />
+          <img src="./images/desktop/image-transform.webp" alt="" />
+        </picture>
+      </section>
+      <!-- STAND OUT SECTION-->
+      <section class="grid grid-2-col grid-sm-1-col">
+        <picture aria-hidden="true">
+          <source
+            media="(max-width: 50em)"
+            srcset="images/mobile/image-stand-out.webp"
+          />
+          <img src="./images/desktop/image-stand-out.webp" alt="" />
+        </picture>
+        <div class="text-container text-container--right">
+          <h2 class="text-container__title">Transform your brand</h2>
+          <p class="text-container__content">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a
+            class="text-container__link text-container__link--soft-red"
+            href="#"
+            target="_blank"
+          >
+            Learn more
+          </a>
+        </div>
+      </section>
+      <!-- GRAPHIC / PHOTO SECTION -->
+      <section class="grid grid-2-col grid-sm-1-col">
+        <div class="graphic">
+          <div class="text-container--secondary">
+            <h2
+              class="text-container__title--secondary text-container__title--graphic"
+            >
+              Graphic design
+            </h2>
+            <p
+              class="text-container__content--secondary text-container__content--graphic"
+            >
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+        <div class="photo">
+          <div class="text-container--secondary">
+            <h2
+              class="text-container__title--secondary text-container__title--photo"
+            >
+              Photography
+            </h2>
+            <p
+              class="text-container__content--secondary text-container__content--photo"
+            >
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS SECTION -->
+      <section class="testimonials">
+        <h2 class="testimonials__title">Client Testimonials</h2>
+
+        <div class="testimonial__cards">
+          <figure class="testimonial__card">
+            <img
+              src="./images/image-emily.webp"
+              alt=""
+              class="testimonial__card-image"
+            />
+            <blockquote class="testimonial__card-text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </blockquote>
+            <figcaption>
+              <p class="testimonial__card-author">Emily R.</p>
+              <span class="testimonial__card-job">Marketing Director</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial__card">
+            <img
+              src="./images/image-thomas.webp"
+              alt=""
+              class="testimonial__card-image"
+            />
+            <blockquote class="testimonial__card-text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </blockquote>
+            <figcaption>
+              <p class="testimonial__card-author">Thomas S.</p>
+              <span class="testimonial__card-job">Chief Operating Officer</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial__card">
+            <img
+              src="./images/image-jennie.webp"
+              alt=""
+              class="testimonial__card-image"
+            />
+            <blockquote class="testimonial__card-text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </blockquote>
+            <figcaption>
+              <p class="testimonial__card-author">Jennie F.</p>
+              <span class="testimonial__card-job">Business Owner</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="grid grid-4-col grid-sm-2x2" aria-hidden="true">
+        <picture>
+          <source
+            media="(max-width:45em)"
+            srcset="images/mobile/image-gallery-milkbottles.webp"
+          />
+          <img src="./images/desktop/image-gallery-milkbottles.webp" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 45em)"
+            srcset="images/mobile/image-gallery-orange.webp"
+          />
+          <img src="./images/desktop/image-gallery-orange.webp" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 45em)"
+            srcset="images/mobile/image-gallery-cone.webp"
+          />
+          <img src="./images/desktop/image-gallery-cone.webp" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 45em)"
+            srcset="images/mobile/image-gallery-sugar-cubes.webp"
+          />
+          <img src="./images/desktop/image-gallery-sugarcubes.webp" alt="" />
+        </picture>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav class="navigation--footer" role="navigation">
+        <img class="logo--footer" src="./images/logo-green.svg" alt="" />
+        <ul role="list" class="navigation__list--footer">
+          <li>
+            <a
+              class="navigation__link navigation__link--footer"
+              title="About"
+              href="#"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="navigation__link navigation__link--footer"
+              title="Services"
+              href="#"
+            >
+              Services
+            </a>
+          </li>
+          <li>
+            <a
+              class="navigation__link navigation__link--footer"
+              title="Project"
+              href="#"
+            >
+              Project
+            </a>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#" title="Facebook" aria-label="Facebook">
+            <i
+              class="fa-brands fa-square-facebook fa-lg footer__socials-icon"
+              aria-hidden="true"
+            ></i>
+          </a>
+          <a href="#" title="Instagram" aria-label="Instagram">
+            <i
+              class="fa-brands fa-instagram fa-lg footer__socials-icon"
+              aria-hidden="true"
+            ></i>
+          </a>
+          <a href="#" title="Twitter" aria-label="Twitter">
+            <i
+              class="fa-brands fa-twitter fa-lg footer__socials-icon"
+              aria-hidden="true"
+            ></i>
+          </a>
+          <a href="#" title="Pinterest" aria-label="Pinterest">
+            <i
+              class="fa-brands fa-pinterest fa-lg footer__socials-icon"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
+      </nav>
+
+      <div class="attribution">
+        <p class="attribution__content">
+          Challenge by
+          <a
+            class="attribution__link line-break"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+          >
+            Frontend Mentor.
+          </a>
+          Coded by
+          <a
+            class="attribution__link"
+            href="https://github.com/jozef-capanda"
+            target="_blank"
+          >
+            Jozef Capanda.
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

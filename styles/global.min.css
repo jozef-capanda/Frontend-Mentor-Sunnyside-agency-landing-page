@@ -1,0 +1,13 @@
+:root{--ff-body:"Barlow",sans-serif;--ff-heading:"Fraunces",serif;--fw-semi-bold:600;--fw-bold:700;--fw-heavy:900;--clamp-padding-24px-to-158px:clamp(
+    1.5rem,
+    calc(-5.2rem + 16.75vw),
+    9.88rem
+  );--clamp-padding-24px-to-150px:clamp(
+    1.5rem,
+    calc(-4.8rem + 15.75vw),
+    9.38rem
+  );--clamp-padding-16px-to-110px:clamp(1rem, calc(-3.7rem + 11.75vw), 6.88rem);--clamp-padding-16px-to-165px:clamp(
+    1rem,
+    calc(-6.45rem + 18.63vw),
+    10.31rem
+  );--clr-white:#fff;--clr-accent-yellow:hsl(51, 100%, 49%);--clr-accent-red:hsl(7, 99%, 70%);--clr-greyish-200:hsl(210, 4%, 67%);--clr-greyish-400:hsl(232, 10%, 55%);--clr-greyish-600:hsl(213, 9%, 39%);--clr-dark-blue-500:hsl(198, 62%, 26%);--clr-dark-blue-700:hsl(197, 84%, 13%);--clr-dark-blue-800:hsl(212, 27%, 19%);--clr-cyan-200:hsl(168, 44%, 70%);--clr-cyan-400:hsl(168, 34%, 41%);--clr-cyan-600:hsl(168, 45%, 32%);--clr-cyan-800:hsl(166, 40%, 24%)}html{scroll-behavior:smooth}body{max-width:90rem;margin-inline:auto;font-family:var(--ff-body);font-weight:var(--fw-semi-bold);font-size:1.125rem;background-color:#add8e6;box-shadow:0 25px 50px -12px rgb(0 0 0 / .25)}section{background-color:#fffcf8}h1,h2,h3{font-family:var(--ff-heading);font-weight:var(--fw-heavy)}p{color:var(--clr-greyish-400)}img{width:100%;height:100%}a{text-decoration:none}ul{padding:0;margin:0}

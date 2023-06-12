@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+}
+
+.grid-center {
+  place-content: center;
+}
+
+.grid-sm-1-col {
+  grid-template-columns: 1fr;
+}
+
+.grid-sm-2x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.place-first-sm {
+  grid-row: 1/2;
+}
+
+@media (min-width: 45em) {
+  .grid-2-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-4-col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .place-first-sm {
+    grid-row: auto;
+  }
+}
