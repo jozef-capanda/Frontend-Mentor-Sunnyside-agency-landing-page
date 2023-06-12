@@ -61,6 +61,10 @@
     line-height: 3.0825rem;
     letter-spacing: -0.29px;
   }
+
+  .navigation {
+    padding: 2.125rem 3rem 0;
+  }
 }
 
 /* 800px */
