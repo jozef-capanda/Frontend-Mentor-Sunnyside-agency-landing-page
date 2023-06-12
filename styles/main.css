@@ -224,6 +224,7 @@
 
 .text-container__title--photo {
   color: var(--clr-dark-blue-700);
+  opacity: 0.75;
 }
 
 .text-container__content--photo {
