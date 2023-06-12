@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Open in New Tab (Ctrl + click)]()
-- Live Site URL: [Open in New Tab (Ctrl + click)]()
+- Solution URL: [Open in New Tab (Ctrl + click)](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-responsive-bem-K8tTmjocmK)
+- Live Site URL: [Open in New Tab (Ctrl + click)](https://jozef-capanda.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/)
 
 ## My process
 
